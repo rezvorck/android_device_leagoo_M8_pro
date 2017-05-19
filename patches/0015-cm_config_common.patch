@@ -1,0 +1,15 @@
+diff --git a/config/common.mk b/config/common.mk
+index a4791e4..452f2ce 100644
+--- a/config/common.mk
++++ b/config/common.mk
+@@ -181,10 +181,8 @@ PRODUCT_PACKAGES += \
+ # Custom CM packages
+ PRODUCT_PACKAGES += \
+     ResurrectionOTA \
+-    ResurrectionStats \
+     Trebuchet \
+     MusicFX \
+-    CMFileManager \
+     Eleven \
+     LockClock \
+     CMSettingsProvider \
