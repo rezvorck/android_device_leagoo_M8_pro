@@ -9,7 +9,6 @@ bin/msensord
 bin/mdlogger
 bin/terservice
 bin/thermal_manager
-bin/fingerprintd
 bin/fsck_msdos_mtk
 bin/mtkrild
 bin/thermald
@@ -123,7 +122,6 @@ lib/libspeech_enh_lib.so
 lib/libmatv_cust.so
 lib/libtinyxml.so
 lib/libfile_op.so
-lib/libfprint-x32.so
 lib/libcam.metadata.so
 lib/libcam.metadataprovider.so
 lib/libcustom_prop.so
@@ -242,7 +240,6 @@ lib/libcamdrv.so
 lib/libmtk_drvb.so
 lib/libcvsd_mtk.so
 lib/libMtkOmxAlacDec.so
-lib/libmtkplayer.so
 lib/libbluetoothem_mtk.so
 lib/libcam.halsensor.so
 lib/libcam.hal3a.v3.so
