@@ -18,7 +18,7 @@ subsystem adf
 /system/bin/jellyservice 0660 system system
 
 #FP MA120
-/dev/madev0 0664 system system
+/dev/madev0              0666   system     system
 
 /dev/spidev0.0           0666   root        root
 
