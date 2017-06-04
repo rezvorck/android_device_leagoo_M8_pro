@@ -101,6 +101,7 @@ allow audioserver ccci_device:chr_file { read write open ioctl };
 allow cameraserver rootfs:lnk_file getattr;
 # allow cameraserver media_rw_data_file:file { read open getattr execute };
 allow cameraserver nvram_prop:file { read open };
+allow cameraserver camera_device:chr_file { open read ioctl };
 allow thermal_manager rootfs:lnk_file getattr;
 allow mediadrmserver rootfs:lnk_file getattr;
 allow mediacodec rootfs:lnk_file getattr;
