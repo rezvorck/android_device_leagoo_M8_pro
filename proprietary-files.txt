@@ -9,7 +9,6 @@ bin/msensord
 bin/mdlogger
 bin/terservice
 bin/thermal_manager
-bin/fingerprintd
 bin/fsck_msdos_mtk
 bin/mtkrild
 bin/thermald
@@ -25,7 +24,6 @@ bin/lsm303md
 bin/6620_wmt_concurrency
 bin/wmt_loader
 bin/md_ctrl
-# bin/md_monitor
 bin/lcdc_screen_cap
 bin/gsm0710muxdmd2
 bin/pppd
@@ -123,7 +121,6 @@ lib/libspeech_enh_lib.so
 lib/libmatv_cust.so
 lib/libtinyxml.so
 lib/libfile_op.so
-lib/libfprint-x32.so
 lib/libcam.metadata.so
 lib/libcam.metadataprovider.so
 lib/libcustom_prop.so
@@ -242,7 +239,6 @@ lib/libcamdrv.so
 lib/libmtk_drvb.so
 lib/libcvsd_mtk.so
 lib/libMtkOmxAlacDec.so
-lib/libmtkplayer.so
 lib/libbluetoothem_mtk.so
 lib/libcam.halsensor.so
 lib/libcam.hal3a.v3.so
@@ -252,7 +248,6 @@ lib/libaudiosetting.so
 lib/libnvramagentclient.so
 
 lib/libGLES_trace.so
-lib/liblicenseservice.so
 
 etc/audio_policy.conf
 etc/audio_device.xml
