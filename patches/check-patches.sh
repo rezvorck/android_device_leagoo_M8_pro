@@ -9,7 +9,6 @@ cd bionic
 git apply -v --check ../device/leagoo/M8_pro/patches/0002-Apply-LIBC-version-to-__pthread_gettid.patch
 cd ..
 cd build
-git apply -v --check ../device/leagoo/M8_pro/patches/0016-TWRP_screen.patch
 git apply -v --check ../device/leagoo/M8_pro/patches/0015_use_our_own_ueventd.patch
 cd ..
 cd system/sepolicy
@@ -29,10 +28,6 @@ cd ../..
 cd system/netd
 git apply -v --check ../../device/leagoo/M8_pro/patches/0010-wifi-tethering-fix.patch
 cd ../..
-cd vendor/cm
-git apply -v --check ../../device/leagoo/M8_pro/patches/0015-cm_config_common.patch
-cd ../..
 cd packages/apps/FMRadio/jni/fmr/ 
 git apply -v --check ../../../../../device/leagoo/M8_pro/patches/0017-fix-fm-radio-power-up-mt6737m-mt6627-chip.patch
 cd ../../../../..
-
