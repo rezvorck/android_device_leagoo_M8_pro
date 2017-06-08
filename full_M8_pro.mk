@@ -52,7 +52,10 @@ PRODUCT_COPY_FILES += \
     $(LOCAL_PATH)/configs/media_codecs_mediatek_audio.xml:system/etc/media_codecs_mediatek_audio.xml \
     $(LOCAL_PATH)/configs/media_codecs_mediatek_video.xml:system/etc/media_codecs_mediatek_video.xml
 
+# Prebuilt
 PRODUCT_COPY_FILES += \
+    $(LOCAL_PATH)/proprietary/bin/fingerprintd:system/bin/fingerprintd \
+    $(LOCAL_PATH)/proprietary/lib/libfprint-x32.so:system/lib/libfprint-x32.so \
     $(LOCAL_PATH)/proprietary/lib/sensors.mt6737m.so:system/lib/hw/sensors.mt6737m.so \
     $(LOCAL_PATH)/proprietary/lib/libMtkOmxVenc.so:system/lib/libMtkOmxVenc.so \
     $(LOCAL_PATH)/proprietary/lib/libvc1dec_sa.ca7.so:system/lib/libvc1dec_sa.ca7.so \
