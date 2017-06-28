@@ -34,11 +34,14 @@ PRODUCT_PACKAGES += \
 
 # Audio
 PRODUCT_PACKAGES += \
-    audio.primary.mt6737m \
-    audio_policy.default \
     audio.a2dp.default \
     audio.usb.default \
-    audio.r_submix.default
+    audio.r_submix.default \
+    libaudio-resampler \
+    libtinyalsa \
+    libtinycompress \
+    libtinymix \
+    libtinyxml
 
 # Media
 PRODUCT_COPY_FILES += \
@@ -80,6 +83,10 @@ PRODUCT_COPY_FILES += \
 PRODUCT_COPY_FILES += \
     $(LOCAL_PATH)/configs/ecc_list.xml:system/etc/ecc_list.xml \
     $(LOCAL_PATH)/configs/spn-conf.xml:system/etc/spn-conf.xml
+    
+# Display
+PRODUCT_PACKAGES += \
+    libion
 
 # GPS
 PRODUCT_COPY_FILES += \
