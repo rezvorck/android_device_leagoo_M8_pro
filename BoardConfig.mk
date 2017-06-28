@@ -69,7 +69,8 @@ BOARD_HAS_MTK_HARDWARE := true
 MTK_HARDWARE := true
 
 # Offline charging
-BOARD_CHARGING_MODE_BOOTING_LPM := /sys/class/BOOT/BOOT/boot/boot_mode
+BACKLIGHT_PATH := /sys/class/leds/lcd-backlight/brightness
+HEALTHD_BACKLIGHT_LEVEL := 50
 
 # RIL
 BOARD_RIL_CLASS := ../../../$(DEVICE_PATH)/ril/

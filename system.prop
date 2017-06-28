@@ -54,7 +54,7 @@ persist.sys.timezone = Europe/Moscow
 ro.mtk_perfservice_support=1
 persist.logd.logpersistd=logcatd
 ro.telephony.default_network=9
-
+persist.sys.debug.multi_window=true
 ro.fo_fmode_finger_print=1
 ro.hardware.fingerprint=ma120n
 ro.fo_security_fingerprint=1
