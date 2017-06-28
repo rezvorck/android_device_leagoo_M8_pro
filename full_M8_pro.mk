@@ -189,7 +189,7 @@ PRODUCT_PACKAGES += \
 
 # 3rd-party apps
 PRODUCT_PACKAGES += \
-	Gello
+	Jelly
 
 #Hack for prebuilt kernel
 $(shell mkdir -p $(OUT)/obj/KERNEL_OBJ/usr)
