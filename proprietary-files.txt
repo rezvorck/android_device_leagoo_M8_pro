@@ -90,7 +90,6 @@ lib/libmp4enc_sa.ca7.so
 lib/libstagefrighthw.so
 lib/libui_ext.so
 lib/libh264enc_sa.ca7.so
-lib/libion.so
 lib/libfeatureio.so
 lib/libaudiocomponentengine.so
 lib/egl/libGLES_mali.so
