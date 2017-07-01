@@ -172,6 +172,10 @@ PRODUCT_DEFAULT_PROPERTY_OVERRIDES += \
 PRODUCT_PACKAGES += \
     Torch
 
+# Camera
+PRODUCT_PACKAGES += \
+    Snap
+
 # FM Radio
 PRODUCT_PACKAGES += \
     FMRadio \
