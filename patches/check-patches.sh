@@ -18,12 +18,16 @@ cd packages/apps/Settings
 git apply -v --check ../../../device/leagoo/M8_pro/patches/0005-add-author-info-in-device-info.patch
 cd ../../..
 cd frameworks/av
+git apply -v --check ../../device/leagoo/M8_pro/patches/0018-EM-frameworks_av.patch
 git apply -v --check ../../device/leagoo/M8_pro/patches/0006-fix-access-wvm-to-ReadOptions.patch
 git apply -v --check ../../device/leagoo/M8_pro/patches/0007-Disable-usage-of-get_capture_position.patch
 git apply -v --check ../../device/leagoo/M8_pro/patches/0008-Partial-Revert-Camera1-API-Support-SW-encoders-for-n.patch
 git apply -v --check ../../device/leagoo/M8_pro/patches/0009-add-mtk-color-format-support.patch
 git apply -v --check ../../device/leagoo/M8_pro/patches/0013-fix-_ZN7android16MediaBufferGroup14acquire_bufferEPP.patch
 git apply -v --check ../../device/leagoo/M8_pro/patches/0014-Revert_mediacodec_minijail.patch
+cd ../..
+cd frameworks/base
+git apply -v --check ../../device/leagoo/M8_pro/patches/0019-EM-frameworks_base.patch
 cd ../..
 cd system/netd
 git apply -v --check ../../device/leagoo/M8_pro/patches/0010-wifi-tethering-fix.patch

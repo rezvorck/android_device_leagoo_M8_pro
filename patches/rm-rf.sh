@@ -1,6 +1,7 @@
 cd ../../../../
 rm -rf build
 rm -rf frameworks/av
+rm -rf frameworks/base
 rm -rf packages/apps/FMRadio
 rm -rf packages/apps/Settings
 rm -rf bootable/recovery
