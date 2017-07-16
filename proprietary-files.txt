@@ -93,6 +93,16 @@ lib/libh264enc_sa.ca7.so
 lib/libfeatureio.so
 lib/libaudiocomponentengine.so
 lib/egl/libGLES_mali.so
+
+lib/libem_bt_jni.so
+lib/libem_gpio_jni.so
+lib/libem_lte_jni.so
+lib/libem_modem_jni.so
+lib/libem_sensor_jni.so
+lib/libem_support_jni.so
+lib/libem_usb_jni.so
+lib/libem_wifi_jni.so
+
 lib/libion_mtk.so
 lib/libperfservicenative.so
 lib/libem_gpio_jni.so
@@ -100,6 +110,7 @@ lib/libaudiomtkdcremoval.so
 lib/libgui_ext.so
 lib/libgralloc_extra.so
 lib/libmtcloader.so
+lib/libmdloggerrecycle.so
 lib/libmdfx.so
 lib/mtk-ril.so
 lib/libcam_utils.so
