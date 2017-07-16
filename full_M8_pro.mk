@@ -193,7 +193,9 @@ PRODUCT_PACKAGES += \
 
 # 3rd-party apps
 PRODUCT_PACKAGES += \
-	Jelly
+    YGPS \
+    Jelly \
+    EngineerMode
 
 #Hack for prebuilt kernel
 $(shell mkdir -p $(OUT)/obj/KERNEL_OBJ/usr)
