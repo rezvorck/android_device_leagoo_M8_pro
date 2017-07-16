@@ -4,7 +4,7 @@ VENDOR_PATH := vendor/leagoo/M8_pro
 # inherit from the proprietary version
 -include $(VENDOR_PATH)/BoardConfigVendor.mk
 
-# GPS
+# Engine mode
 TARGET_SPECIFIC_HEADER_PATH := $(DEVICE_PATH)/include
 
 # Platform
@@ -68,6 +68,9 @@ TARGET_REQUIRES_SYNCHRONOUS_SETSURFACE := true
 BOARD_HAS_MTK_HARDWARE := true
 MTK_HARDWARE := true
 
+# Fix video autoscaling on old OMX decoders
+TARGET_OMX_LEGACY_RESCALING:=true
+
 # Offline charging
 BACKLIGHT_PATH := /sys/class/leds/lcd-backlight/brightness
 HEALTHD_BACKLIGHT_LEVEL := 50
@@ -129,5 +132,5 @@ POLICYVERS := 29
 # [+] Decker
 TARGET_LDPRELOAD += libxlog.so:libmtk_symbols.so # for symbols in mtkaudio.cpp + mtksymbols
 
-#BOARD_USES_LEGACY_MTK_AV_BLOB := true
-#TARGET_HAS_LEGACY_CAMERA_HAL1 := true
+# Mediatek support
+BOARD_USES_MTK_HARDWARE:=true
