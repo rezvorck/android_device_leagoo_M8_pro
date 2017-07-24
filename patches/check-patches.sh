@@ -15,7 +15,6 @@ cd system/sepolicy
 git apply -v --check ../../device/leagoo/M8_pro/patches/0003-Revert-back-to-policy-version-29.patch
 cd ../..
 cd packages/apps/Settings
-git apply -v --check ../../../device/leagoo/M8_pro/patches/0005-add-author-info-in-device-info.patch
 cd ../../..
 cd frameworks/av
 git apply -v --check ../../device/leagoo/M8_pro/patches/0018-EM-frameworks_av.patch
