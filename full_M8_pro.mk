@@ -27,10 +27,8 @@ PRODUCT_PACKAGES += \
 #    lights.mt6737m
 
 # Fingerprint
-# PRODUCT_PACKAGES += \
-    fingerprintd \
-    fingerprint.mt6737m
-
+PRODUCT_PACKAGES += \
+    fingerprintd
 
 # Audio
 PRODUCT_PACKAGES += \
@@ -64,7 +62,6 @@ PRODUCT_COPY_FILES += \
 
 # Prebuilt
 PRODUCT_COPY_FILES += \
-    $(LOCAL_PATH)/proprietary/bin/fingerprintd:system/bin/fingerprintd \
     $(LOCAL_PATH)/proprietary/lib/libfprint-x32.so:system/lib/libfprint-x32.so \
     $(LOCAL_PATH)/proprietary/lib/sensors.mt6737m.so:system/lib/hw/sensors.mt6737m.so \
     $(LOCAL_PATH)/proprietary/lib/libMtkOmxVenc.so:system/lib/libMtkOmxVenc.so \
